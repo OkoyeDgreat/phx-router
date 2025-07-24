@@ -237,6 +237,8 @@ router.stopbFunc('statsTimer'); // Stop the specific 'statsTimer'
 router.stopbFunc();             // Stop all registered background functions
 ```
 
+And dont forget to add 
+router.resolveRoot(); and the end of router file if u have any script u want to run at page run without it the current url functions wont run 
 -----
 
 
